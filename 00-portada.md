@@ -31,4 +31,4 @@ Desarrollar un sistema web que integró los registros biométricos del personal 
 
 ---
 
-[Indice](./documentacion/)
+[Índice](./README.md) | [Siguiente: Introducción](./01-introduccion.md)
