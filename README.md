@@ -2,7 +2,9 @@
 
 ## Documentación Técnica y Aplicativa
 
-Proyecto de Grado - Ingeniería de Sistemas
+Proyecto de Grado
+
+**📋 [Resumen Técnico](./RESUMEN_TECNICO.md)** - Vista general simplificada del sistema
 
 ---
 
