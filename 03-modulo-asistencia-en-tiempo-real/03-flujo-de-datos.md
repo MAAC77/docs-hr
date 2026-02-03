@@ -170,14 +170,14 @@ classDiagram
     }
 
     class TodayPeriodsList {
-        +periods: SessionWithPeriod[]
+        +periods: Array
         +renderPeriod()
         +getStatusIcon()
         +getStatusColor()
     }
 
     class EventsTimeline {
-        +events: AttendanceEvent[]
+        +events: Array
         +renderTimeline()
         +formatEventTime()
         +getEventIcon()
@@ -200,14 +200,14 @@ classDiagram
         +totalLateMinutes: number
         +totalEarlyExitMinutes: number
         +totalOvertimeMinutes: number
-        +sessions: AttendanceSession[]
+        +sessions: Array
     }
 
-    TodayStatusCard --> useAttendanceReport : uses
-    TodayStatusCard --> NextActionAlert : renders
-    TodayStatusCard --> TodayPeriodsList : renders
-    TodayStatusCard --> EventsTimeline : renders
-    useAttendanceReport --> AttendanceReport : returns
+    TodayStatusCard --> useAttendanceReport
+    TodayStatusCard --> NextActionAlert
+    TodayStatusCard --> TodayPeriodsList
+    TodayStatusCard --> EventsTimeline
+    useAttendanceReport --> AttendanceReport
 ```
 
 ---

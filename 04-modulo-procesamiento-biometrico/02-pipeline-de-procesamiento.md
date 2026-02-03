@@ -20,11 +20,11 @@ flowchart TD
     end
 
     subgraph Input["INPUT"]
-        I[DeviceRawRecord[]]
+        I["Registros Dispositivo"]
     end
 
     subgraph Output["OUTPUT"]
-        O[AttendanceSession[]]
+        O["Sesiones de Asistencia"]
     end
 
     subgraph DB["PostgreSQL"]

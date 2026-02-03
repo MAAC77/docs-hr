@@ -72,30 +72,30 @@ classDiagram
         +input: InputData
         +data: ReferenceData
         +persist: PersistentState
-        +auditTrace: AuditTrail[]
+        +auditTrace: Array
     }
 
     class InputData {
         +userUuid: string
         +workDate: date
-        +records: DeviceRawRecord[]
+        +records: Array
         +now: DateTime
     }
 
     class ReferenceData {
-        +scheduleAssignments: ScheduleAssignment[]
-        +schedulePeriods: SchedulePeriod[]
-        +existingEvents: AttendanceEvent[]
-        +existingSessions: AttendanceSession[]
-        +holidays: Holiday[]
-        +leaves: LeaveRequest[]
+        +scheduleAssignments: Array
+        +schedulePeriods: Array
+        +existingEvents: Array
+        +existingSessions: Array
+        +holidays: Array
+        +leaves: Array
     }
 
     class PersistentState {
-        +events: AttendanceEvent[]
+        +events: Array
         +sessionMap: Map~periodUuid, sessionUuid~
-        +processedRecords: DeviceRawRecord[]
-        +skippedRecords: DeviceRawRecord[]
+        +processedRecords: Array
+        +skippedRecords: Array
     }
 
     class AuditTrail {
@@ -234,4 +234,4 @@ El sistema manejó correctamente turnos partidos (ej: mañana + tarde):
 
 ---
 
-[Siguiente: Pipeline de Procesamiento](./02-pipeline-de-procesamiento.md) | [Anterior: Procedimiento Aplicativo](../../03-modulo-asistencia-en-tiempo-real/04-procedimiento-aplicativo.md)
+[Siguiente: Pipeline de Procesamiento](./02-pipeline-de-procesamiento.md) | [Anterior: Procedimiento Aplicativo](/documentacion/03-modulo-asistencia-en-tiempo-real/04-procedimiento-aplicativo.md)

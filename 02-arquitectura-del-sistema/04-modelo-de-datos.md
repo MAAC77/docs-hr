@@ -8,131 +8,20 @@ El sistema utilizó **PostgreSQL** como base de datos relacional, con **TypeORM*
 
 ```mermaid
 erDiagram
-    User ||--o{ AttendanceSession : "registra"
-    User ||--o{ AttendanceEvent : "genera"
-    User ||--o{ DeviceRawRecord : "origina"
-    User ||--|| ScheduleAssignment : "tiene asignado"
-    User }o--|| Department : "pertenece a"
+    User ||--o{ AttendanceSession : registra
+    User ||--o{ AttendanceEvent : genera
+    User ||--o{ DeviceRawRecord : origina
+    User ||--|| ScheduleAssignment : tiene
+    User }o--|| Department : pertenece
 
-    ScheduleAssignment ||--o{ AttendanceSession : "define"
-    ScheduleAssignment }o--|| ScheduleVersion : "utiliza"
-    ScheduleVersion ||--o{ SchedulePeriod : "contiene"
+    ScheduleAssignment ||--o{ AttendanceSession : define
+    ScheduleAssignment }o--|| ScheduleVersion : utiliza
+    ScheduleVersion ||--o{ SchedulePeriod : contiene
 
-    AttendanceSession ||--o{ AttendanceEvent : "agrupa"
-    AttendanceSession }o--|| SchedulePeriod : "corresponde a"
-    AttendanceSession }o--o| Holiday : "puede ser"
-    AttendanceSession }o--o| LeaveRequest : "puede ser justificada por"
+    AttendanceSession ||--o{ AttendanceEvent : agrupa
+    AttendanceSession }o--|| SchedulePeriod : corresponde
 
-    DeviceRawRecord }o--|| Device : "proviene de"
-
-    User {
-        uuid PK
-        email string
-        full_name string
-        document_number string
-        device_user_sn bigint
-        status EntityStatus
-        created_at timestamp
-        updated_at timestamp
-    }
-
-    Department {
-        uuid PK
-        name string
-        code string
-        parent_uuid FK
-        status EntityStatus
-    }
-
-    ScheduleAssignment {
-        uuid PK
-        user_uuid FK
-        schedule_version_uuid FK
-        start_date date
-        end_date date
-        is_active boolean
-        status EntityStatus
-    }
-
-    ScheduleVersion {
-        uuid PK
-        name string
-        effective_from date
-        status EntityStatus
-    }
-
-    SchedulePeriod {
-        uuid PK
-        schedule_version_uuid FK
-        day_of_week DayOfWeek
-        start_time time
-        end_time time
-        min_entry time
-        max_entry time
-        min_exit time
-        max_exit time
-        tolerance_minutes int
-    }
-
-    AttendanceSession {
-        uuid PK
-        user_uuid FK
-        work_date date
-        schedule_period_uuid FK
-        attendance_status AttendanceStatus
-        entry_status EntryStatus
-        exit_status ExitStatus
-        worked_minutes int
-        late_minutes int
-        early_exit_minutes int
-        overtime_minutes int
-        status EntityStatus
-    }
-
-    AttendanceEvent {
-        uuid PK
-        session_uuid FK
-        event_timestamp timestamp
-        event_type EventType
-        event_source EventSource
-        confidence_score decimal
-    }
-
-    DeviceRawRecord {
-        uuid PK
-        device_uuid FK
-        user_sn bigint
-        device_user_id string
-        record_time timestamp
-        unique_signature string
-        processed boolean
-        processed_at timestamp
-        processing_error string
-    }
-
-    Device {
-        uuid PK
-        name string
-        ip_address string
-        port int
-        device_type string
-        status DeviceStatus
-    }
-
-    Holiday {
-        uuid PK
-        name string
-        date date
-        recurring boolean
-    }
-
-    LeaveRequest {
-        uuid PK
-        user_uuid FK
-        start_date date
-        end_date date
-        status LeaveStatus
-    }
+    DeviceRawRecord }o--|| Device : proviene
 ```
 
 ---
@@ -316,4 +205,4 @@ flowchart TD
 
 ---
 
-[Anterior: Arquitectura Frontend](./03-arquitectura-frontend.md) | [Siguiente: Módulo de Asistencia en Tiempo Real](../../03-modulo-asistencia-en-tiempo-real/01-descripcion-general.md)
+[Anterior: Arquitectura Frontend](./03-arquitectura-frontend.md) | [Siguiente: Módulo de Asistencia en Tiempo Real](/documentacion/03-modulo-asistencia-en-tiempo-real/01-descripcion-general.md)

@@ -117,8 +117,8 @@ classDiagram
         +syncNow()
     }
 
-    DeviceSyncService --> ZKLib : uses
-    DeviceController --> DeviceSyncService : calls
+    DeviceSyncService --> ZKLib
+    DeviceController --> DeviceSyncService
 
     style ZKLib fill:#c8e6c9
     style DeviceSyncService fill:#fff3e0
@@ -231,7 +231,7 @@ classDiagram
         ERROR
     }
 
-    Device --> DeviceStatus : uses
+    Device --> DeviceStatus
 ```
 
 ### Operaciones CRUD
@@ -313,4 +313,4 @@ flowchart TD
 
 ---
 
-[Siguiente: Sincronización de Datos](./02-sincronizacion-de-datos.md) | [Anterior: Generación de PDF](../../05-modulo-reportes/04-generacion-de-pdf.md)
+[Siguiente: Sincronización de Datos](./02-sincronizacion-de-datos.md) | [Anterior: Generación de PDF](/documentacion/05-modulo-reportes/04-generacion-de-pdf.md)

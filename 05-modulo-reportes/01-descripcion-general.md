@@ -94,10 +94,10 @@ classDiagram
         +calculateOvertimeMinutes(events, period)
     }
 
-    AttendanceReportService --> AttendanceCalculations : usa
-    AttendanceSummaryReportService --> AttendanceCalculations : usa
-    PDFExportService --> AttendanceReportService : consume
-    PDFExportService --> AttendanceSummaryReportService : consume
+    AttendanceReportService --> AttendanceCalculations
+    AttendanceSummaryReportService --> AttendanceCalculations
+    PDFExportService --> AttendanceReportService
+    PDFExportService --> AttendanceSummaryReportService
 
     style AttendanceCalculations fill:#fff3e0
 ```
@@ -199,4 +199,4 @@ sequenceDiagram
 
 ---
 
-[Siguiente: Cálculos de Asistencia](./02-calculos-asistencia.md) | [Anterior: Ventanas de Tiempo](../../04-modulo-procesamiento-biometrico/04-ventanas-de-tiempo.md)
+[Siguiente: Cálculos de Asistencia](./02-calculos-asistencia.md) | [Anterior: Ventanas de Tiempo](/documentacion/04-modulo-procesamiento-biometrico/04-ventanas-de-tiempo.md)

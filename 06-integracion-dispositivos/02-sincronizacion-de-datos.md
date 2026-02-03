@@ -84,13 +84,13 @@ sequenceDiagram
     Note over Job,Engine: Se ejecuta cada 5 minutos
     Job->>Sync: trigger()
     Sync->>DB: SELECT devices WHERE isActive=true
-    DB-->>Sync: Device[]
+    DB-->>Sync: Lista de dispositivos
 
     loop Para cada dispositivo
         Sync->>ZK: connect(ip, port)
         ZK-->>Sync: connected
         Sync->>ZK: getAttendance(lastSyncAt)
-        ZK-->>Sync: AttendanceRecord[]
+        ZK-->>Sync: Registros de asistencia
 
         Sync->>DB: SELECT WHERE unique_signature IN (...)
         DB-->>Sync: Registros existentes
@@ -316,4 +316,4 @@ sequenceDiagram
 
 ---
 
-[Anterior: Integración ZKTeco](./01-integracion-zkteco.md) | [Siguiente: Seguridad y Autenticación](../07-seguridad-y-autenticacion.md)
+[Anterior: Integración ZKTeco](./01-integracion-zkteco.md) | [Siguiente: Seguridad y Autenticación](/documentacion/07-seguridad-y-autenticacion.md)

@@ -236,8 +236,8 @@ El sistema utilizó **Shadcn/ui** como base para los componentes de interfaz:
 ```mermaid
 classDiagram
     class UIDataTable {
-        +columns: Column[]
-        +data: T[]
+        +columns: Array
+        +data: Array
         +pagination: PaginationState
         +filters: FilterState
         +sorting: SortingState
@@ -247,14 +247,14 @@ classDiagram
     class Card {
         +title: string
         +content: ReactNode
-        +actions: Action[]
+        +actions: Array
         render()
     }
 
     class Form {
         +schema: ZodSchema
         +onSubmit: Handler
-        +fields: Field[]
+        +fields: Array
         render()
     }
 
