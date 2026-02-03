@@ -164,4 +164,4 @@ Los aspectos transversales (transacciones, formateo de respuestas, logging) se m
 
 ---
 
-[Siguiente: Arquitectura Backend](./02-arquitectura-backend.md) | [Anterior: Introducción](/documentacion/01-introduccion.md)
+[Siguiente: Arquitectura Backend](./02-arquitectura-backend.md) | [Anterior: Introducción](/01-introduccion.md)

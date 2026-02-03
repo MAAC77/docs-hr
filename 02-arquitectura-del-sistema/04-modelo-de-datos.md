@@ -205,4 +205,4 @@ flowchart TD
 
 ---
 
-[Anterior: Arquitectura Frontend](./03-arquitectura-frontend.md) | [Siguiente: Módulo de Asistencia en Tiempo Real](/documentacion/03-modulo-asistencia-en-tiempo-real/01-descripcion-general.md)
+[Anterior: Arquitectura Frontend](./03-arquitectura-frontend.md) | [Siguiente: Módulo de Asistencia en Tiempo Real](/03-modulo-asistencia-en-tiempo-real/01-descripcion-general.md)

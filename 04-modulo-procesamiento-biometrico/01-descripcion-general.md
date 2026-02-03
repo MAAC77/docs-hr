@@ -234,4 +234,4 @@ El sistema manejó correctamente turnos partidos (ej: mañana + tarde):
 
 ---
 
-[Siguiente: Pipeline de Procesamiento](./02-pipeline-de-procesamiento.md) | [Anterior: Procedimiento Aplicativo](/documentacion/03-modulo-asistencia-en-tiempo-real/04-procedimiento-aplicativo.md)
+[Siguiente: Pipeline de Procesamiento](./02-pipeline-de-procesamiento.md) | [Anterior: Procedimiento Aplicativo](/03-modulo-asistencia-en-tiempo-real/04-procedimiento-aplicativo.md)

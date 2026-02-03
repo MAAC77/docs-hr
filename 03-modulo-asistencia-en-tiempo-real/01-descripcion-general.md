@@ -213,4 +213,4 @@ stateDiagram-v2
 
 ---
 
-[Siguiente: Casos de Uso](./02-casos-de-uso.md) | [Anterior: Modelo de Datos](/documentacion/02-arquitectura-del-sistema/04-modelo-de-datos.md)
+[Siguiente: Casos de Uso](./02-casos-de-uso.md) | [Anterior: Modelo de Datos](/02-arquitectura-del-sistema/04-modelo-de-datos.md)

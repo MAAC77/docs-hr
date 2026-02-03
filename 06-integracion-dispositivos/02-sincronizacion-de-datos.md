@@ -316,4 +316,4 @@ sequenceDiagram
 
 ---
 
-[Anterior: Integración ZKTeco](./01-integracion-zkteco.md) | [Siguiente: Seguridad y Autenticación](/documentacion/07-seguridad-y-autenticacion.md)
+[Anterior: Integración ZKTeco](./01-integracion-zkteco.md) | [Siguiente: Seguridad y Autenticación](/07-seguridad-y-autenticacion.md)

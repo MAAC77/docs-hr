@@ -220,4 +220,4 @@ Minutos de salida temprana = (Hora programada - Tolerancia) - (Hora de salida re
 
 ---
 
-[Anterior: Flujo de Datos](./03-flujo-de-datos.md) | [Siguiente: Módulo de Procesamiento Biométrico](/documentacion/04-modulo-procesamiento-biometrico/01-descripcion-general.md)
+[Anterior: Flujo de Datos](./03-flujo-de-datos.md) | [Siguiente: Módulo de Procesamiento Biométrico](/04-modulo-procesamiento-biometrico/01-descripcion-general.md)

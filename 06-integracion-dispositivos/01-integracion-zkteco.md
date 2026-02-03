@@ -313,4 +313,4 @@ flowchart TD
 
 ---
 
-[Siguiente: Sincronización de Datos](./02-sincronizacion-de-datos.md) | [Anterior: Generación de PDF](/documentacion/05-modulo-reportes/04-generacion-de-pdf.md)
+[Siguiente: Sincronización de Datos](./02-sincronizacion-de-datos.md) | [Anterior: Generación de PDF](/05-modulo-reportes/04-generacion-de-pdf.md)

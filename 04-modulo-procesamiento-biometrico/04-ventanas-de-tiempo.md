@@ -316,4 +316,4 @@ flowchart LR
 
 ---
 
-[Anterior: Clasificación de Eventos](./03-clasificacion-eventos.md) | [Siguiente: Módulo de Reportes](/documentacion/05-modulo-reportes/01-descripcion-general.md)
+[Anterior: Clasificación de Eventos](./03-clasificacion-eventos.md) | [Siguiente: Módulo de Reportes](/05-modulo-reportes/01-descripcion-general.md)

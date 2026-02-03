@@ -324,4 +324,4 @@ flowchart TD
 
 ---
 
-[Anterior: Casos de Uso](./03-casos-de-uso.md) | [Siguiente: Integración de Dispositivos](/documentacion/06-integracion-dispositivos/01-integracion-zkteco.md)
+[Anterior: Casos de Uso](./03-casos-de-uso.md) | [Siguiente: Integración de Dispositivos](/06-integracion-dispositivos/01-integracion-zkteco.md)
