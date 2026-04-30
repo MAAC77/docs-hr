@@ -36,6 +36,12 @@ Su objetivo es separar claramente:
 - Horarios
 - Solicitudes y consulta de información propia
 
+### [10.4.b Guía Rápida del Usuario Final](./manual-usuario-final-guia-rapida.md)
+- Versión breve e informal
+- Primer ingreso y pasos básicos
+- Navegación rápida
+- Uso diario resumido
+
 ### [10.5 Manual del Área de RRHH](./manual-rrhh.md)
 - Operación funcional de RRHH
 - Gestión organizacional

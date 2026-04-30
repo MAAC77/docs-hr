@@ -7,6 +7,7 @@
 | Manual | Audiencia | Objetivo |
 |--------|-----------|----------|
 | [Manual del Usuario Final](./manual-usuario-final.md) | Personal / usuario final | Consultar información propia y realizar gestiones personales |
+| [Guía Rápida del Usuario Final](./manual-usuario-final-guia-rapida.md) | Personal / usuario final | Aprender rápido el uso básico del sistema con un tono más simple |
 | [Manual de RRHH](./manual-rrhh.md) | Recursos Humanos | Operar procesos funcionales del área |
 | [Manual del Administrador](./manual-administrador.md) | Administrador del sistema | Configurar y administrar componentes críticos |
 
