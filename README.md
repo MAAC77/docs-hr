@@ -208,6 +208,19 @@ Objetivo general y objetivos específicos del proyecto.
 
 ---
 
+## 10. Manuales de Usuario
+
+### [10. Manuales de Usuario](./10-manuales-de-usuario/README.md)
+- Índice general de manuales
+- Estándar de redacción
+- Inventario de módulos
+- Manual del usuario final
+- Manual de RRHH
+- Manual del administrador
+- Plantilla de manual por módulo
+
+---
+
 ## Tecnologías del Proyecto
 
 | Capa | Tecnología |
