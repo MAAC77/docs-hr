@@ -148,8 +148,3 @@ Al finalizar esta revisión, debes poder:
 - decidir qué módulo revisar después.
 
 ---
-
-## Imágenes usadas
-
-- vista general del `Dashboard Admin`;
-- vista analítica con incidencias y distribución.

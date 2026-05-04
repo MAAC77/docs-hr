@@ -206,13 +206,3 @@ Al finalizar este proceso, debes poder:
 - sincronizar registros cuando sea necesario.
 
 ---
-
-## Imágenes usadas
-
-- pantalla principal del listado de dispositivos;
-- formulario de creación;
-- formulario de edición;
-- menú de acciones;
-- estado de conexión;
-- cuadro de sincronización;
-- confirmaciones de activación e inactivación.
