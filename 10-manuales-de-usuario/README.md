@@ -55,6 +55,12 @@ Su objetivo es separar claramente:
 - Configuraciones
 - Reportes globales
 
+### Manuales modulares de RRHH y Administración
+- Documentos detallados por pantalla o proceso
+- Uso guiado paso a paso
+- Validaciones y errores frecuentes
+- Apoyo para capacitación y operación diaria
+
 ### [10.7 Plantilla de Manual por Módulo](./plantilla-manual-modulo.md)
 - Formato reutilizable
 - Base para documentar módulos complejos
@@ -66,7 +72,8 @@ Su objetivo es separar claramente:
 - Si el lector es personal general, usar el **Manual del Usuario Final**.
 - Si el lector pertenece a RRHH, usar el **Manual de RRHH**.
 - Si el lector administra usuarios, dispositivos o parámetros del sistema, usar el **Manual del Administrador**.
-- Si un módulo requiere más detalle que el manual general, crear un documento adicional usando la **Plantilla de Manual por Módulo**.
+- Si el lector necesita ejecutar un proceso específico, usar el manual modular correspondiente.
+- Si se crea un módulo nuevo, usar la **Plantilla de Manual por Módulo** como base.
 
 ---
 
@@ -75,5 +82,5 @@ Su objetivo es separar claramente:
 Cuando se agregue una nueva pantalla o cambie un flujo operativo:
 
 1. actualizar el manual del rol afectado
-2. revisar si el módulo necesita un manual específico
+2. actualizar el manual específico del módulo afectado
 3. actualizar el inventario de módulos

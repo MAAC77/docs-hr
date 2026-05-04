@@ -13,6 +13,33 @@
 
 ---
 
+## Manuales por Módulo
+
+### Administración del sistema
+
+- [Dashboard Administrativo](./manual-admin-dashboard.md)
+- [Gestión de Dispositivos](./manual-admin-dispositivos.md)
+- [Mapeo de Usuarios a Dispositivos](./manual-admin-mapeo-usuarios-dispositivos.md)
+- [Registros de Dispositivos](./manual-admin-registros-dispositivos.md)
+- [Gestión de Usuarios](./manual-admin-usuarios.md)
+- [Configuraciones del Sistema](./manual-admin-configuraciones.md)
+- [Reportes Globales](./manual-admin-reportes-globales.md)
+
+### Operación de RRHH
+
+- [Reportes de Asistencia](./manual-rrhh-reportes-asistencia.md)
+- [Tabla Mensual de Personal](./manual-rrhh-tabla-mensual-personal.md)
+- [Departamentos](./manual-rrhh-departamentos.md)
+- [Asignaciones de Personal](./manual-rrhh-asignaciones-personal.md)
+- [Feriados](./manual-rrhh-feriados.md)
+- [Horarios](./manual-rrhh-horarios.md)
+- [Asignaciones de Horario](./manual-rrhh-asignaciones-horario.md)
+- [Solicitudes de Permiso](./manual-rrhh-solicitudes-permiso.md)
+- [Pendientes de Aprobación](./manual-rrhh-pendientes-aprobacion.md)
+- [Tipos de Permiso](./manual-rrhh-tipos-permiso.md)
+
+---
+
 ## Lectura Recomendada
 
 ### Para usuarios finales
@@ -61,12 +88,12 @@ Usar:
 
 ---
 
-## Módulos que Merecen Documento Propio
+## Estado Actual
 
-Se recomienda crear manuales específicos para estos módulos cuando inicie la redacción completa:
+Actualmente ya existen manuales separados para los módulos más sensibles de `Administrador` y `RRHH`.
 
-- Asistencia
-- Permisos
-- Dispositivos y mapeos
-- Horarios y asignaciones
-- Reportes
+Cuando se agregue una nueva pantalla o cambie un proceso importante, debe actualizarse:
+
+1. el manual del rol;
+2. el manual del módulo afectado;
+3. este índice general.

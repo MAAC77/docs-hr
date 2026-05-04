@@ -23,7 +23,7 @@ Este proceso se realiza solo la primera vez que ingresas al sistema.
 En esta pantalla todavía no debes escribir tu usuario ni tu contraseña. Primero debes pulsar el botón de inicio de sesión.
 
 <p align="center">
-  <img src="../files/01-pantalla-acceso.png" alt="Pantalla de acceso" width="260">
+  <img src="../files/usuario-final/acceso/01-pantalla-acceso.png" alt="Pantalla de acceso" width="260">
 </p>
 
 ### Paso 2. Ingresar tus credenciales
@@ -36,7 +36,7 @@ En esta pantalla todavía no debes escribir tu usuario ni tu contraseña. Primer
 Si la contraseña no ingresa, revisa mayúsculas, minúsculas y espacios.
 
 <p align="center">
-  <img src="../files/02-formulario-inicio-sesion.png" alt="Formulario de inicio de sesión" width="260">
+  <img src="../files/usuario-final/acceso/02-formulario-inicio-sesion.png" alt="Formulario de inicio de sesión" width="260">
 </p>
 
 ### Paso 3. Cambiar tu contraseña
@@ -51,7 +51,7 @@ Después del primer ingreso, el sistema te pedirá cambiar tu contraseña para a
 Guarda esta contraseña en un lugar seguro. La necesitarás en tus siguientes ingresos.
 
 <p align="center">
-  <img src="../files/03-cambiar-contrasena.png" alt="Cambiar contraseña" width="260">
+  <img src="../files/usuario-final/acceso/03-cambiar-contrasena.png" alt="Cambiar contraseña" width="260">
 </p>
 
 ### Paso 4. Actualizar tus datos
@@ -69,7 +69,7 @@ Luego de cambiar la contraseña, el sistema te llevará a una pantalla para comp
 Antes de continuar, verifica con atención que el correo esté bien escrito. Ese correo se usará para la verificación de la cuenta.
 
 <p align="center">
-  <img src="../files/04-actualizar-datos.png" alt="Actualizar datos" width="260">
+  <img src="../files/usuario-final/acceso/04-actualizar-datos.png" alt="Actualizar datos" width="260">
 </p>
 
 ### Paso 5. Verificar tu correo
@@ -84,7 +84,7 @@ Después de guardar tus datos, el sistema mostrará un mensaje indicando que deb
 Si no ves el correo en tu bandeja principal, revisa también spam, promociones o correo no deseado.
 
 <p align="center">
-  <img src="../files/05-verificacion-email.png" alt="Verificación del correo" width="260">
+  <img src="../files/usuario-final/acceso/05-verificacion-email.png" alt="Verificación del correo" width="260">
 </p>
 
 ### Paso 6. Confirmar desde el correo
@@ -95,7 +95,7 @@ Si no ves el correo en tu bandeja principal, revisa también spam, promociones o
 4. Cuando el proceso termine, vuelve al sistema si es necesario.
 
 <p align="center">
-  <img src="../files/06-correo-verificacion.png" alt="Correo de verificación" width="420">
+  <img src="../files/usuario-final/acceso/06-correo-verificacion.png" alt="Correo de verificación" width="420">
 </p>
 
 Cuando completes estos pasos, tu cuenta quedará activada y podrás ingresar normalmente.

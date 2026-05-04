@@ -24,22 +24,22 @@ Se usa para decidir:
 | Marcaciones personales | Sí | No | No | Manual del Usuario Final |
 | Horarios personales | Sí | No | No | Manual del Usuario Final |
 | Solicitudes personales | Sí | No | No | Manual del Usuario Final |
-| Departamentos | No | Sí | Opcional | Manual de RRHH |
-| Asignaciones de personal | No | Sí | Opcional | Manual de RRHH |
-| Feriados | No | Sí | Opcional | Manual de RRHH |
-| Reportes de asistencia | No | Sí | Opcional | Manual de RRHH |
-| Tabla mensual del personal | No | Sí | Opcional | Manual de RRHH |
-| Horarios | No | Sí | No | Manual de RRHH |
-| Asignaciones de horario | No | Sí | No | Manual de RRHH |
-| Solicitudes de permisos | No | Sí | No | Manual de RRHH |
-| Pendientes de aprobación | No | Sí | Sí | Manual de RRHH y aprobaciones |
-| Tipos de permiso | No | Sí | No | Manual de RRHH |
-| Usuarios | No | No | Sí | Manual del Administrador |
-| Dispositivos | No | No | Sí | Manual del Administrador |
-| Mapeo de usuarios con dispositivos | No | No | Sí | Manual del Administrador |
-| Registros crudos de dispositivos | No | No | Sí | Manual del Administrador |
-| Configuraciones | No | No | Sí | Manual del Administrador |
-| Reportes globales | No | No | Sí | Manual del Administrador |
+| Departamentos | No | Sí | Sí | [Manual de Departamentos](./manual-rrhh-departamentos.md) |
+| Asignaciones de personal | No | Sí | Sí | [Manual de Asignaciones de Personal](./manual-rrhh-asignaciones-personal.md) |
+| Feriados | No | Sí | Sí | [Manual de Feriados](./manual-rrhh-feriados.md) |
+| Reportes de asistencia | No | Sí | Sí | [Manual de Reportes de Asistencia](./manual-rrhh-reportes-asistencia.md) |
+| Tabla mensual del personal | No | Sí | Sí | [Manual de Tabla Mensual de Personal](./manual-rrhh-tabla-mensual-personal.md) |
+| Horarios | No | Sí | Sí | [Manual de Horarios](./manual-rrhh-horarios.md) |
+| Asignaciones de horario | No | Sí | Sí | [Manual de Asignaciones de Horario](./manual-rrhh-asignaciones-horario.md) |
+| Solicitudes de permisos | No | Sí | Sí | [Manual de Solicitudes de Permiso](./manual-rrhh-solicitudes-permiso.md) |
+| Pendientes de aprobación | No | Sí | Sí | [Manual de Pendientes de Aprobación](./manual-rrhh-pendientes-aprobacion.md) |
+| Tipos de permiso | No | Sí | Sí | [Manual de Tipos de Permiso](./manual-rrhh-tipos-permiso.md) |
+| Usuarios | No | No | Sí | [Manual de Gestión de Usuarios](./manual-admin-usuarios.md) |
+| Dispositivos | No | No | Sí | [Manual de Dispositivos](./manual-admin-dispositivos.md) |
+| Mapeo de usuarios con dispositivos | No | No | Sí | [Manual de Mapeo de Usuarios a Dispositivos](./manual-admin-mapeo-usuarios-dispositivos.md) |
+| Registros de dispositivos | No | Sí | Sí | [Manual de Registros de Dispositivos](./manual-admin-registros-dispositivos.md) |
+| Configuraciones | No | No | Sí | [Manual de Configuraciones](./manual-admin-configuraciones.md) |
+| Reportes globales | No | Sí | Sí | [Manual de Reportes Globales](./manual-admin-reportes-globales.md) |
 
 ---
 
@@ -68,18 +68,23 @@ Estos módulos existen en código y conviene documentarlos cuando se confirme su
 
 ### Paquete 2: RRHH
 
-- gestión organizacional
-- asistencia global
-- horarios y asignaciones
-- permisos
-- reportes
+- [Manual de RRHH](./manual-rrhh.md)
+- reportes de asistencia
+- tabla mensual del personal
+- departamentos y asignaciones
+- feriados
+- horarios y asignaciones de horario
+- solicitudes, pendientes y tipos de permiso
 
 ### Paquete 3: Administración
 
-- administración de usuarios
-- infraestructura funcional de dispositivos
-- parámetros del sistema
-- supervisión global
+- [Manual de Administración del Sistema](./manual-administrador.md)
+- dashboard administrativo
+- dispositivos y mapeos
+- registros de dispositivos
+- usuarios
+- configuraciones
+- reportes globales
 
 ---
 
