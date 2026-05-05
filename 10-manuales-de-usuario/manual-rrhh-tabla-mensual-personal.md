@@ -4,13 +4,13 @@
 
 ## Objetivo
 
-Explicar cómo revisar la asistencia mensual consolidada de una persona.
+Explicar cómo revisar la asistencia mensual consolidada de una persona, día por día y período por período.
 
 ---
 
 ## A quién aplica
 
-Este manual aplica al personal con rol `RRHH`.
+Este manual aplica al personal con rol `Administrador` y `RRHH`.
 
 ---
 
@@ -32,9 +32,18 @@ Normalmente encontrarás:
 
 - selector de año;
 - selector de mes;
-- búsqueda por persona;
+- selector de usuario;
+- botón `Refrescar`;
 - tabla detallada del período;
 - resumen del mes.
+
+La consulta no se muestra hasta que seleccionas una persona activa.
+
+Importante: la tabla es plana. Si un día tiene dos períodos, verás dos filas para ese mismo día.
+
+<p align="center">
+  <img src="../files/rrhh/tabla-mensual-personal/01-seleccion-usuario.png" alt="Selección de mes, año y usuario" width="760">
+</p>
 
 ---
 
@@ -43,11 +52,54 @@ Normalmente encontrarás:
 1. Abre la pantalla.
 2. Selecciona el año.
 3. Selecciona el mes.
-4. Busca a la persona que deseas revisar.
+4. Busca y selecciona a la persona que deseas revisar.
 5. Espera a que cargue la información.
 6. Revisa el detalle día por día.
+7. Si necesitas actualizar la información, usa `Refrescar`.
 
 ---
+
+## Cómo leer la tabla
+
+La tabla muestra estas columnas:
+
+- `Nro.`: número del período dentro del día;
+- `Día`: día de la semana y fecha;
+- `Entrada`: hora o estado de entrada;
+- `Salida`: hora o estado de salida;
+- `Observaciones`: resumen del estado del día.
+
+En `Entrada` y `Salida` pueden aparecer textos como:
+
+- `Feriado`;
+- `Permiso`;
+- `Ausencia`;
+- `Sin entrada`;
+- `Sin salida`.
+
+Si hay hora registrada, también se muestra si hubo retraso o salida anticipada.
+
+En `Observaciones` puedes ver mensajes como:
+
+- `Pendiente`;
+- `Fin de semana`;
+- `Ausencia`;
+- `Justificado`;
+- `Incompleto`;
+- `Atraso`;
+- `Salida anticipada`;
+- `Atraso / Salida anticipada`.
+
+Además, la fila puede cambiar de color para ayudarte a identificar:
+
+- fines de semana;
+- feriados;
+- ausencias;
+- fechas futuras.
+
+<p align="center">
+  <img src="../files/rrhh/tabla-mensual-personal/02-tabla-estados.png" alt="Tabla con estados de asistencia" width="760">
+</p>
 
 ## Qué revisar en la tabla
 
@@ -58,7 +110,13 @@ Durante la revisión, presta atención a:
 - tardanzas;
 - permisos;
 - feriados;
-- días sin entrada o sin salida.
+- días sin entrada o sin salida;
+- períodos repetidos dentro del mismo día;
+- diferencias entre lo planificado y lo registrado.
+
+<p align="center">
+  <img src="../files/rrhh/tabla-mensual-personal/03-tabla-periodos.png" alt="Tabla con un mismo día y dos períodos" width="760">
+</p>
 
 ---
 
@@ -69,16 +127,6 @@ Usa esta pantalla cuando:
 - necesites revisar a una persona durante todo un mes;
 - debas validar observaciones de asistencia;
 - quieras revisar un período antes de emitir un reporte o atender una incidencia.
-
----
-
-## Cómo exportar o compartir la información
-
-Si la pantalla ofrece exportación:
-
-1. revisa primero que el mes y la persona sean correctos;
-2. usa la opción de exportar disponible;
-3. confirma que el archivo generado corresponde al período consultado.
 
 ---
 
@@ -102,16 +150,21 @@ Revisa:
 3. si el horario del día era distinto;
 4. si hay marcaciones en el dispositivo.
 
+### No aparece información
+
+Revisa:
+
+1. si seleccionaste una persona activa;
+2. si el mes y el año son correctos;
+3. si la persona tiene horario asignado en ese período;
+4. si existen registros de asistencia para ese mes.
+
 ---
 
 ## Resultado esperado
 
-Al finalizar, debes poder comprender el comportamiento mensual de asistencia de una persona con una sola consulta.
+Al finalizar, debes poder comprender el comportamiento mensual de asistencia de una persona con una sola consulta, sin interpretar datos aislados fila por fila.
 
----
-
-## Imágenes recomendadas
-
-- pantalla principal de la tabla mensual;
-- filtros de año, mes y persona;
-- ejemplo de una fila con estado especial.
+<p align="center">
+  <img src="../files/rrhh/tabla-mensual-personal/04-resumen-asistencia.png" alt="Resumen de asistencia mensual" width="520">
+</p>

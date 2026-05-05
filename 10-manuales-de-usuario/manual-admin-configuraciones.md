@@ -39,17 +39,25 @@ La tabla normalmente muestra:
 También puedes encontrar:
 
 - búsqueda por clave;
-- filtro por estado;
+- filtro por `Tipo`;
 - botón `Nueva Configuración`.
+
+El cambio de estado se realiza desde las acciones de cada fila.
+
+<p align="center">
+  <img src="../files/admin/configuraciones/01-listado-configuraciones.png" alt="Listado de configuraciones" width="760">
+</p>
 
 ---
 
 ## Qué significa cada campo
 
-- `Clave`: identificador interno de la configuración. Normalmente queda fija una vez creada.
+- `Clave`: identificador de la configuración. Una vez creada, normalmente no se modifica.
 - `Valor`: dato que usará el sistema.
 - `Tipo`: define cómo debe interpretarse el valor. Puede ser texto, número, booleano o JSON.
 - `Descripción`: explica para qué sirve la configuración.
+
+En esta pantalla no se editan los límites `minValue` y `maxValue`; esos datos existen en el sistema, pero no forman parte del formulario visible actual.
 
 ---
 
@@ -63,6 +71,16 @@ También puedes encontrar:
 6. Revisa cuidadosamente la información.
 7. Haz clic en `Crear Configuración`.
 
+Recuerda:
+
+- la clave debe escribirse en mayúsculas;
+- solo se permiten letras mayúsculas, números y guiones bajos;
+- el valor debe coincidir con el tipo elegido.
+
+<p align="center">
+  <img src="../files/admin/configuraciones/02-crear-configuracion.png" alt="Crear nueva configuración" width="420">
+</p>
+
 ---
 
 ## Cómo editar una configuración
@@ -73,7 +91,8 @@ También puedes encontrar:
 4. Modifica solo los campos necesarios.
 5. Guarda los cambios.
 
-Ten en cuenta que la `Clave` normalmente no puede modificarse una vez creada.
+Ten en cuenta que la `Clave` no puede modificarse una vez creada.
+Si cambias el `Tipo`, revisa también que el `Valor` siga siendo válido.
 
 ---
 
@@ -83,6 +102,12 @@ Ten en cuenta que la `Clave` normalmente no puede modificarse una vez creada.
 2. En `Acciones`, selecciona `Activar` o `Inactivar`.
 3. Lee la confirmación.
 4. Confirma solo si estás seguro de la acción.
+
+El estado de la configuración afecta si el sistema la toma en cuenta o no para su comportamiento.
+
+<p align="center">
+  <img src="../files/admin/configuraciones/03-confirmar-inactivar-configuracion.png" alt="Confirmar inactivación de configuración" width="360">
+</p>
 
 ---
 
@@ -94,6 +119,12 @@ Ten en cuenta que la `Clave` normalmente no puede modificarse una vez creada.
 4. si el tipo es `NUMBER`, verifica que el valor sea numérico;
 5. si el tipo es `JSON`, valida que el contenido sea correcto;
 6. revisa el impacto funcional antes de confirmar.
+
+Límites del formulario:
+
+- `Clave`: entre 3 y 100 caracteres;
+- `Valor`: hasta 1000 caracteres;
+- `Descripción`: hasta 500 caracteres.
 
 ---
 
@@ -117,7 +148,8 @@ Revisa:
 
 1. si la clave ya existe;
 2. si el valor no coincide con el tipo;
-3. si el JSON tiene formato inválido.
+3. si el JSON tiene formato inválido;
+4. si el número ingresado no es válido.
 
 ### El sistema se comporta distinto después del cambio
 
@@ -138,12 +170,3 @@ Al finalizar, debes poder:
 - crear nuevas configuraciones cuando corresponda;
 - modificar valores de forma segura;
 - activar o inactivar registros según necesidad.
-
----
-
-## Imágenes recomendadas
-
-- listado principal de configuraciones;
-- modal `Crear Nueva Configuración`;
-- formulario donde se vea `Clave`, `Tipo` y `Valor`;
-- menú de acciones para activar o inactivar.
